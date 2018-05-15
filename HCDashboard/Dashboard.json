@@ -1,0 +1,27 @@
+[
+  {
+    "DisplayName":"Local Dashboard",
+    "Server" :"http://localhost:911/HealthCheck",
+	"ID":"Loca"
+  },
+  {
+    "DisplayName":"Test Dashboard",
+    "Server":"http://35.176.38.216/HealthCheck",
+	"ID":"Test"
+  },
+  {
+    "DisplayName":"Server1 Dashboard",
+    "Server":"http://localhost:911/HealthCheck",
+	"ID":"Server1"
+  },
+  {
+    "DisplayName":"Server2 Dashboard",
+    "Server":"http://localhost:911/HealthCheck",
+	"ID":"Server2"
+  },
+  {
+    "DisplayName":"Server3 Dashboard",
+    "Server":"http://localhost:911/HealthCheck",
+	"ID":"Server3"
+  }
+]
