@@ -140,6 +140,7 @@
     <Content Include="pug\includes\css\core.pug" />
     <Content Include="pug\includes\css\custom.pug" />
     <Content Include="Dashboard.json" />
+    <None Include="Properties\PublishProfiles\HCDashboard.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
