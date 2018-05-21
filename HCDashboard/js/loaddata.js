@@ -121,7 +121,7 @@ function GetServiceInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
 function GetDeviceInfo(url) {
@@ -183,7 +183,7 @@ function GetDeviceInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
 function GetIISInfo(url) {
@@ -238,7 +238,7 @@ function GetIISInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
 function GetPerformanceInfo(url) {
@@ -293,7 +293,7 @@ function GetPerformanceInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 
 }
 
@@ -347,7 +347,7 @@ function GetRadiusInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
 function GetPortInfo(url) {
@@ -400,7 +400,7 @@ function GetPortInfo(url) {
   }
  });
 
- ScrollDown();
+ ScrollUp();
 }
 
 function GetDBInfo(url) {
@@ -450,7 +450,7 @@ function GetDBInfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
 function GetMySQLnfo(url) {
@@ -505,10 +505,10 @@ function GetMySQLnfo(url) {
    $("#CallTime").text(gettime());
   }
  });
- ScrollDown();
+ ScrollUp();
 }
 
-function ScrollDown() {
+function ScrollUp() {
  //$("#LogMessage").stop().animate({ scrollTop: $("#LogMessage")[0].scrollHeight + 50000 }, 5000);//ScrollDown
  $("#LogMessage").stop().animate({
   scrollTop: 0

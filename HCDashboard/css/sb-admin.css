@@ -421,9 +421,9 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 .card-body-icon {
   position: absolute;
   z-index: 0;
-  top: -25px;
-  right: -25px;
-  font-size: 5rem;
+  top: -2px;
+  right: -2px;
+  font-size: 3rem;
   -webkit-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
   transform: rotate(15deg);
@@ -476,8 +476,5 @@ footer.sticky-footer {
     width: calc(100% - 55px);
   }
 }
-.service:before {
-        background-image: url("./image/if_wheel_49631.png");
-  
-}
+
 
